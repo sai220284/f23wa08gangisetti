@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
     const result = Math.cosh(x);
  
     // Create the response string
-    const responseString = `Math.sin() applied to ${x} is ${result}`;
+    const responseString = `Math.cosh() applied to ${x} is ${result}`;
  
     res.send(responseString);
   });
